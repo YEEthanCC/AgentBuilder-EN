@@ -1,7 +1,7 @@
 - Application Orchestration: incomplete
-    - Create Application: incomplete
-    - Conversation Assistant: incomplete
-    - Agent: incomplete
+    - Create Application: done
+    - Conversation Assistant: done
+    - Agent: done
     - Application Toolkits: incomplete
         - Moderation Tool: incomplete
 - Workflow: incomplete
