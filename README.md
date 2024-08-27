@@ -1,0 +1,71 @@
+- Application Orchestration: incomplete
+    - Create Application: incomplete
+    - Conversation Assistant: incomplete
+    - Agent: incomplete
+    - Application Toolkits: incomplete
+        - Moderation Tool: incomplete
+- Workflow: incomplete
+    - Key Concepts: incomplete
+    - Variables: incomplete
+    - Node Description: incomplete
+        - Start: incomplete
+        - End: incomplete
+        - Direct Reply: incomplete
+        - LLM: incomplete
+        - Knowledge Retrieval: incomplete
+        - Question Classifier: incomplete
+        - Conditional Branch IF/ELSE: incomplete
+        - Code Execution: incomplete
+        - Template: incomplete
+        - Variable Aggregator: incomplete
+        - Variable Assigner: incomplete
+        - Iteration: incomplete
+        - Parameter Extraction: incomplete
+        - HTTP Request: incomplete
+        - Tools: incomplete
+    - Debug and Preview: incomplete
+        - Preview and Run: incomplete
+        - Step Run: incomplete
+        - Conversation/Run Logs: incomplete
+        - Checklist: incomplete
+        - Run History: incomplete
+    - Application Publishing: incomplete
+- Knowledge Base: incomplete
+    - Create Knowledge Base & Upload Documents: incomplete
+    - Knowledge Base and Document Maintenance: incomplete
+    - Integrate Knowledge Base within Application: incomplete
+    - Retrieval Test/Citation: incomplete
+    - Sync Data from Notion: incomplete
+    - Sync Data from Website: incomplete
+    - Maintain Knowledge Base via API: incomplete
+    - External Data Tool: incomplete
+- Tools: incomplete
+    - Quick Tool Integration: skip
+    - Advanced Tool Integration: skip
+    - Tool Configuration: skip
+        - StableDiffusion: skip
+        - SearXNG: skip
+- Publishing: incomplete
+    - Publish as a Single-page Web App: incomplete
+        - Web App Settings: incomplete
+        - Text Generator Application: incomplete
+        - Conversation Application: incomplete
+    - Embedding In Websites: incomplete
+    - Developing with APIs: incomplete
+    - Re-develop Based on Frontend Templates: incomplete
+- Annotation: incomplete
+    - Logs and Annotation: incomplete
+    - Annotation Reply: incomplete
+- Monitoring: incomplete
+    - Data Analysis: incomplete
+    - Integrate External Ops Tools: incomplete
+        - Integrate LangSmith: incomplete
+        - Integrate Langfuse: incomplete
+- Extension: incomplete
+    - API-Based Extension: skip
+    - Code-Based Extension: skip
+- Collaboration: incomplete
+    - Discover: incomplete
+    - Invite and Manage Members
+- Management: incomplete
+    - Manage App: incomplete
