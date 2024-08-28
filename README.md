@@ -5,15 +5,15 @@
     - Application Toolkits: done
         - Moderation Tool: done
 - Workflow: incomplete
-    - Key Concepts: incomplete
-    - Variables: incomplete
-    - Node Description: incomplete
-        - Start: incomplete
-        - End: incomplete
-        - Direct Reply: incomplete
-        - LLM: incomplete
-        - Knowledge Retrieval: incomplete
-        - Question Classifier: incomplete
+    - Key Concepts: done
+    - Variables: done
+    - Node Description: done
+        - Start: done
+        - End: done
+        - Direct Reply: done
+        - LLM: done
+        - Knowledge Retrieval: done
+        - Question Classifier: done
         - Conditional Branch IF/ELSE: incomplete
         - Code Execution: incomplete
         - Template: incomplete
