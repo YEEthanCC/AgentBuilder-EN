@@ -1,9 +1,9 @@
-- Application Orchestration: incomplete
+- Application Orchestration: done
     - Create Application: done
     - Conversation Assistant: done
     - Agent: done
-    - Application Toolkits: incomplete
-        - Moderation Tool: incomplete
+    - Application Toolkits: done
+        - Moderation Tool: done
 - Workflow: incomplete
     - Key Concepts: incomplete
     - Variables: incomplete
