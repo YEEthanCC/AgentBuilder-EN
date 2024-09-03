@@ -14,15 +14,14 @@
         - LLM: done
         - Knowledge Retrieval: done
         - Question Classifier: done
-        - Conditional Branch IF/ELSE: incomplete
-        - Code Execution: incomplete
-        - Template: incomplete
-        - Variable Aggregator: incomplete
-        - Variable Assigner: incomplete
-        - Iteration: incomplete
-        - Parameter Extraction: incomplete
-        - HTTP Request: incomplete
-        - Tools: incomplete
+        - Conditional Branch IF/ELSE: done
+        - Code Execution: done
+        - Template: done
+        - Variable Aggregator: done
+        - Iteration: done
+        - Parameter Extraction: done
+        - HTTP Request: done
+        - Tools: done
     - Debug and Preview: incomplete
         - Preview and Run: incomplete
         - Step Run: incomplete
