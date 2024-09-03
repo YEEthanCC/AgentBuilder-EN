@@ -4,7 +4,7 @@
     - Agent: done
     - Application Toolkits: done
         - Moderation Tool: done
-- Workflow: incomplete
+- Workflow: done
     - Key Concepts: done
     - Variables: done
     - Node Description: done
@@ -22,13 +22,13 @@
         - Parameter Extraction: done
         - HTTP Request: done
         - Tools: done
-    - Debug and Preview: incomplete
-        - Preview and Run: incomplete
-        - Step Run: incomplete
-        - Conversation/Run Logs: incomplete
-        - Checklist: incomplete
-        - Run History: incomplete
-    - Application Publishing: incomplete
+    - Debug and Preview: done
+        - Preview and Run: done
+        - Step Run: done
+        - Conversation/Run Logs: done
+        - Checklist: done
+        - Run History: done
+    - Application Publishing: done
 - Knowledge Base: incomplete
     - Create Knowledge Base & Upload Documents: incomplete
     - Knowledge Base and Document Maintenance: incomplete
