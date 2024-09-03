@@ -30,10 +30,10 @@
         - Run History: done
     - Application Publishing: done
 - Knowledge Base: incomplete
-    - Create Knowledge Base & Upload Documents: incomplete
-    - Knowledge Base and Document Maintenance: incomplete
-    - Integrate Knowledge Base within Application: incomplete
-    - Retrieval Test/Citation: incomplete
+    - Create Knowledge Base & Upload Documents: done
+    - Knowledge Base and Document Maintenance: done
+    - Integrate Knowledge Base within Application: done
+    - Retrieval Test/Citation: done
     - Sync Data from Notion: incomplete
     - Sync Data from Website: incomplete
     - Maintain Knowledge Base via API: incomplete
