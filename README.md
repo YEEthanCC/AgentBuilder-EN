@@ -29,15 +29,15 @@
         - Checklist: done
         - Run History: done
     - Application Publishing: done
-- Knowledge Base: incomplete
+- Knowledge Base: done
     - Create Knowledge Base & Upload Documents: done
     - Knowledge Base and Document Maintenance: done
     - Integrate Knowledge Base within Application: done
     - Retrieval Test/Citation: done
-    - Sync Data from Notion: incomplete
-    - Sync Data from Website: incomplete
-    - Maintain Knowledge Base via API: incomplete
-    - External Data Tool: incomplete
+    - Sync Data from Notion: done
+    - Sync Data from Website: done
+    - Maintain Knowledge Base via API: done
+    - External Data Tool: skip
 - Tools: incomplete
     - Quick Tool Integration: skip
     - Advanced Tool Integration: skip
