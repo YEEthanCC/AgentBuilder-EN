@@ -2,7 +2,7 @@
 
 ## 1. Retrieval Testing
 
-The Dify Knowledge Base provides a text retrieval testing feature to debug the recall effects under different retrieval methods and parameter configurations. You can enter common user questions in the **Source Text** input box, click **Test**, and view the recall results in the **Recalled Paragraph** section on the right. The **Recent Queries** section allows you to view the history of query records; if the knowledge base is linked to an application, queries triggered from within the application can also be viewed here. 
+The AgentBuilder Knowledge Base provides a text retrieval testing feature to debug the recall effects under different retrieval methods and parameter configurations. You can enter common user questions in the **Source Text** input box, click **Test**, and view the recall results in the **Recalled Paragraph** section on the right. The **Recent Queries** section allows you to view the history of query records; if the knowledge base is linked to an application, queries triggered from within the application can also be viewed here. 
 
 ![retrieval_testing](/Knowledge_Base/images/retrieval_testing.png)
 

@@ -1,6 +1,6 @@
 # Sync Data from Notion
 
-Dify datasets support importing from Notion and setting up **synchronization** so that data updates in Notion are automatically synced to Dify.
+AgentBuilder datasets support importing from Notion and setting up **synchronization** so that data updates in Notion are automatically synced to AgentBuilder.
 
 ## Authorization Verification
 
@@ -15,17 +15,17 @@ After completing the authorization verification, go to the create dataset page, 
 
 ## Segmentation and Cleaning
 
-Next, choose your **segmentation settings** and **indexing method**, then **Save and Process**. Wait for Dify to process this data for you, which typically requires token consumption in the LLM provider. Dify supports importing not only standard page types but also aggregates and saves page properties under the database type.
+Next, choose your **segmentation settings** and **indexing method**, then **Save and Process**. Wait for AgentBuilder to process this data for you, which typically requires token consumption in the LLM provider. AgentBuilder supports importing not only standard page types but also aggregates and saves page properties under the database type.
 
 ***Please note: Images and files are not currently supported for import, and tabular data will be converted to text display.***
 
 ## Synchronizing Notion Data
 
-If your Notion content is modified, you can directly click **Sync** in the Dify dataset **Document List Page** to perform a one-click data synchronization. This step requires token consumption.
+If your Notion content is modified, you can directly click **Sync** in the AgentBuilder dataset **Document List Page** to perform a one-click data synchronization. This step requires token consumption.
 
 ## Integration Configuration Method for Community Edition Notion
 
-Notion integration can be done in two ways: **internal integration** and **public integration**. You can configure them as needed in Dify. For specific differences between the two integration methods, please refer to [Notion Official Documentation](https://developers.notion.com/docs/authorization). 
+Notion integration can be done in two ways: **internal integration** and **public integration**. You can configure them as needed in AgentBuilder. For specific differences between the two integration methods, please refer to [Notion Official Documentation](https://developers.notion.com/docs/authorization). 
 
 ## 1. Using Internal Integration
 
@@ -41,7 +41,7 @@ After creating the integration, you can update its settings as needed under the 
 
 ![notion_integration_settings](/Knowledge_Base/images/notion_integration_settings.png) 
 
-After copying, go back to the Dify source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
+After copying, go back to the AgentBuilder source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
 
 **NOTION_INTEGRATION_TYPE**=internal or **NOTION_INTEGRATION_TYPE**=public
 
@@ -57,7 +57,7 @@ After successfully making the integration public on the integration settings pag
 
 ![notion_public_integration_key](/Knowledge_Base/images/notion_public_integration_key.png) 
 
-Go back to the Dify source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
+Go back to the AgentBuilder source code, and configure the relevant environment variables in the **.env** file. The environment variables are as follows:
 
 - **NOTION_INTEGRATION_TYPE**=public
 - **NOTION_CLIENT_SECRET**=your-client-secret

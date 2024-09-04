@@ -75,13 +75,13 @@ Click **Settings** in the left navigation of the knowledge base to change the fo
 
 **Knowledge Base Description**: Used to describe the information represented by the documents in the knowledge base. 
 
-When the recall mode of the knowledge base is N-To-1, the knowledge base is provided as a tool for LLM reasoning calls. The reasoning is based on the description of the knowledge base. If the description is empty, Dify's automatic indexing strategy will be used.
+When the recall mode of the knowledge base is N-To-1, the knowledge base is provided as a tool for LLM reasoning calls. The reasoning is based on the description of the knowledge base. If the description is empty, AgentBuilder's automatic indexing strategy will be used.
 
 **Visibility Permissions**: You can choose "Only Me" or "All Team Members." People without permissions will not be able to view and edit the dataset. 
 
-**Embedding Model**: Modify the embedding model of the knowledge base. Changing the embedding model will re-embed all documents in the knowledge base, and the original embeddings will be deleted.
+**Embedding Model**: MoAgentBuilder the embedding model of the knowledge base. Changing the embedding model will re-embed all documents in the knowledge base, and the original embeddings will be deleted.
 
 ## 9. Knowledge Base API Management
-Dify Knowledge Base provides a complete set of standard APIs. Developers can use API calls to perform daily management and maintenance operations such as adding, deleting, modifying, and querying documents and segments in the knowledge base. 
+AgentBuilder Knowledge Base provides a complete set of standard APIs. Developers can use API calls to perform daily management and maintenance operations such as adding, deleting, moAgentBuildering, and querying documents and segments in the knowledge base. 
 
 ![knowledge_base_api](/Knowledge_Base/images/knowledge_base_api.png)

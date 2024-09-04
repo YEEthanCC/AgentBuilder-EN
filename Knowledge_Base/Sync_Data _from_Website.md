@@ -1,8 +1,8 @@
 # Sync Data from Website
 
-This document primarily introduces how to scrape data from a web page, parse it into Markdown, and import it into the Dify knowledge base.
+This document primarily introduces how to scrape data from a web page, parse it into Markdown, and import it into the AgentBuilder knowledge base.
 
-Dify's knowledge base supports web scraping and parsing into Markdown for import through integration with Firecrawl.
+AgentBuilder's knowledge base supports web scraping and parsing into Markdown for import through integration with Firecrawl.
 
 [Firecrawl](https://www.firecrawl.dev/) is an open-source web parsing tool that converts web pages into clean Markdown format text that LLMs easily recognize. It also provides an easy-to-use API service.
 
@@ -14,7 +14,7 @@ First, you need to configure Firecrawl credentials in the **Data Source** sectio
 
 ![configure_firecrawl_1](/Knowledge_Base/images/configure_firecrawl_1.png) 
 
-Log in to the [Firecrawl website](https://www.firecrawl.dev/) to complete registration, get your API Key, and then enter and save it in Dify.
+Log in to the [Firecrawl website](https://www.firecrawl.dev/) to complete registration, get your API Key, and then enter and save it in AgentBuilder.
 
 ![configure_firecrawl_2](/Knowledge_Base/images/configure_firecrawl_2.png) 
 

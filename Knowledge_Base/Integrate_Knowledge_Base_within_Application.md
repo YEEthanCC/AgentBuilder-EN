@@ -2,7 +2,7 @@
 
 ## Creating an Application Integrated with Knowledge Base
 
-A **"Knowledge Base"** can be used as an external information source to provide precise answers to user questions via LLM. You can associate an existing knowledge base with any application type in Dify.
+A **"Knowledge Base"** can be used as an external information source to provide precise answers to user questions via LLM. You can associate an existing knowledge base with any application type in AgentBuilder.
 
 Taking a chat assistant as an example, the process is as follows:
 
@@ -82,7 +82,7 @@ The Rerank model is an external scoring system that calculates the relevance sco
 
 While this method incurs some additional costs, it is more adept at handling complex knowledge base content, such as content that combines semantic queries and keyword matches, or cases involving multilingual returned content.
 
-Dify currently supports multiple Rerank models. To use external Rerank models, you'll need to provide an API Key. Enter the API Key for the Rerank model (such as Cohere, Jina, etc.) on the "Model Provider" page. 
+AgentBuilder currently supports multiple Rerank models. To use external Rerank models, you'll need to provide an API Key. Enter the API Key for the Rerank model (such as Cohere, Jina, etc.) on the "Model Provider" page. 
 
 ![cohere_model](/Knowledge_Base/images/cohere_model.png) 
 

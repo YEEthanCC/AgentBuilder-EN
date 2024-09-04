@@ -2,7 +2,7 @@
 
 ## 1 Creating a Knowledge Base
 
-Click on Knowledge in the main navigation bar of Dify. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
+Click on Knowledge in the main navigation bar of AgentBuilder. On this page, you can see your existing knowledge bases. Click **Create Knowledge** to enter the setup wizard:
 
 ![create_knowledge](/Knowledge_Base/images/create_knowledge.png)
 
@@ -33,7 +33,7 @@ If you choose to use an external data source when creating a knowledge base, the
 
 **Segmenting**: Large language models have a limited context window, usually requiring the entire text to be segmented and then recalling the most relevant segments to the user’s question, known as the segment TopK recall mode. Additionally, appropriate segment sizes help match the most relevant text content and reduce information noise when semantically matching user questions with text segments.
 
-**Cleaning**: To ensure the quality of text recall, it is usually necessary to clean the data before passing it into the model. For example, unwanted characters or blank lines in the output may affect the quality of the response. To help users solve this problem, Dify provides various cleaning methods to help clean the output before sending it to downstream applications.
+**Cleaning**: To ensure the quality of text recall, it is usually necessary to clean the data before passing it into the model. For example, unwanted characters or blank lines in the output may affect the quality of the response. To help users solve this problem, AgentBuilder provides various cleaning methods to help clean the output before sending it to downstream applications.
 
 Segmentation and cleaning support two configuration strategies:
 
@@ -57,19 +57,19 @@ In custom mode, users can configure chunk settings and cleaning settings accordi
 
 ## 4 Optional ETL Configuration
 
-In production-level applications of RAG, to achieve better data recall, multi-source data needs to be preprocessed and cleaned, i.e., ETL (extract, transform, load). To enhance the preprocessing capabilities of unstructured/semi-structured data, Dify supports optional ETL solutions: Dify ETL and Unstructured ETL.
+In production-level applications of RAG, to achieve better data recall, multi-source data needs to be preprocessed and cleaned, i.e., ETL (extract, transform, load). To enhance the preprocessing capabilities of unstructured/semi-structured data, AgentBuilder supports optional ETL solutions: AgentBuilder ETL and Unstructured ETL.
 
 Unstructured can efficiently extract and transform your data into clean data for subsequent steps.
 
-ETL solution choices in different versions of Dify:
+ETL solution choices in different versions of AgentBuilder:
 
 - The SaaS version defaults to using Unstructured ETL and cannot be changed;
-- The community version defaults to using Dify ETL but can enable Unstructured ETL through environment variables;
+- The community version defaults to using AgentBuilder ETL but can enable Unstructured ETL through environment variables;
 
 Differences in supported file formats for parsing:
 
 
-|**DIFY ETL**|**Unstructured ETL**|
+|**AgentBuilder ETL**|**Unstructured ETL**|
 |:-----------|:-------------------|
 |txt, markdown, md, pdf, html, htm, xlsx, xls, docx, csv|txt, markdown, md, pdf, html, htm, xlsx, xls, docx, csv, eml, msg, pptx, ppt, xml, epub|
 
@@ -93,7 +93,7 @@ Question text is natural language with complete grammatical structure, not just 
 
 ## 6 Retrieval Settings
 
-In high-quality indexing mode, Dify offers three retrieval options:
+In high-quality indexing mode, AgentBuilder offers three retrieval options:
 
 - **Vector Search**, generating query embeddings and searching for the text chunk most similar to its vector representation.
 - **Full-Text Search**, indexing all terms in the document, allowing users to search any term and retrieve relevant text chunk containing those terms.
