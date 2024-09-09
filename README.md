@@ -61,8 +61,13 @@
         - Integrate LangSmith: incomplete
         - Integrate Langfuse: done
 - Extension: incomplete
-    - API-Based Extension: skip
-    - Code-Based Extension: skip
+    - API-Based Extension: done
+        - External Data Tool: done
+        - Deploy API Tools with Cloudflare Workers: done
+        - Moderation: done
+    - Code-Based Extension: incomplete
+        - External Data Tool: incomplete
+        - Moderation: incomplete
 - Collaboration: incomplete
     - Discover: incomplete
     - Invite and Manage Members

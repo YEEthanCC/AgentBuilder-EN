@@ -31,7 +31,7 @@ To add a custom type ```Weather Search```, you need to create the relevant direc
 
 ## 2. Add Frontend Component Specifications
 
-- ```schema.json```, which defines the frontend component specifications
+- ```schema.json``` defines the frontend component specifications 
 
 ```
 {
@@ -69,13 +69,13 @@ To add a custom type ```Weather Search```, you need to create the relevant direc
         }
     ]
 }
-``` 
+```
 
 ## 3. Add Implementation Class
 
-```weather_search.py``` code template, where you can implement the specific business logic. 
+```weather_search.py``` code template, where you can implement the specific business logic.
 
-Note: The class variable name must be the custom type name, consistent with the directory and file name, and must be unique. 
+Note: The class variable ```nam```e must be the custom type name, consistent with the directory and file name, and must be unique.
 
 ```
 from typing import Optional
@@ -124,63 +124,3 @@ class WeatherSearch(ExternalDataTool):
         else:
             return f'Weather in {city} is 0°C'
 ```
-
-## 4. Debug the Extension
-
-Now, you can select the custom ```Weather Search``` external data tool extension type in the Dify application orchestration interface for debugging.
-
-## Implementation Class Template 
-
-```
-from typing import Optional
-
-from core.external_data_tool.base import ExternalDataTool
-
-
-class WeatherSearch(ExternalDataTool):
-    """
-    The name of custom type must be unique, keep the same with directory and file name.
-    """
-    name: str = "weather_search"
-
-    @classmethod
-    def validate_config(cls, tenant_id: str, config: dict) -> None:
-        """
-        schema.json validation. It will be called when user save the config.
-
-        :param tenant_id: the id of workspace
-        :param config: the variables of form config
-        :return:
-        """
-
-        # implement your own logic here
-
-    def query(self, inputs: dict, query: Optional[str] = None) -> str:
-        """
-        Query the external data tool.
-
-        :param inputs: user inputs
-        :param query: the query of chat app
-        :return: the tool query result
-        """
-       
-        # implement your own logic here
-        return "your own data."
-```
-
-## Detailed Introduction to Implementation Class Development
-
-### def validate_config
-
-```schema.json``` form validation method, called when the user clicks "Publish" to save the configuration.
-
-- ```config``` form parameters
-    - ```{{variable}}``` custom form variables
-
-### def query
-
-User-defined data query implementation, the returned result will be replaced into the specified variable.
-
-- ```inputs:``` Variables passed by the end user
-- ```query:``` Current conversation input content from the end user, a fixed parameter for conversational applications.
-
