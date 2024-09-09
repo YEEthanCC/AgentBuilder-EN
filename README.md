@@ -52,9 +52,9 @@
     - Embedding In Websites: done
     - Developing with APIs: done
     - Re-develop Based on Frontend Templates: done
-- Annotation: incomplete
-    - Logs and Annotation: incomplete
-    - Annotation Reply: incomplete
+- Annotation: done
+    - Logs and Annotation: done
+    - Annotation Reply: done
 - Monitoring: incomplete
     - Data Analysis: incomplete
     - Integrate External Ops Tools: incomplete
