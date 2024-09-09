@@ -38,7 +38,7 @@
     - Sync Data from Website: done
     - Maintain Knowledge Base via API: done
     - External Data Tool: skip
-- Tools: incomplete
+- Tools: done
     - Quick Tool Integration: skip
     - Advanced Tool Integration: skip
     - Tool Configuration: skip
