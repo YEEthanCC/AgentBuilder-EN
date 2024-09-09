@@ -3,20 +3,20 @@
 ## Tool Definition
 
 Tools can extend the capabilities of LLMs (Language Learning Models), such as performing web searches, scientific calculations, or 
-generating images, thereby enhancing the LLM's ability to connect with the external world. Dify provides two types of tools: **First-party Tools** and **Custom Tools**.
+generating images, thereby enhancing the LLM's ability to connect with the external world. AgentBuilder provides two types of tools: **First-party Tools** and **Custom Tools**.
 
-You can directly use the first-party built-in tools provided by the Dify ecosystem, or easily import custom API tools (currently supporting OpenAPI / Swagger and OpenAI Plugin specifications).
+You can directly use the first-party built-in tools provided by the AgentBuilder ecosystem, or easily import custom API tools (currently supporting OpenAPI / Swagger and OpenAI Plugin specifications).
 
 ### Functions of Tools:
 
-1. Tools allow users to create more powerful AI applications on Dify. For example, you can arrange suitable tools for an intelligent assistant application (Agent) that can complete complex tasks through task reasoning, step-by-step breakdown, and tool invocation.
+1. Tools allow users to create more powerful AI applications on AgentBuilder. For example, you can arrange suitable tools for an intelligent assistant application (Agent) that can complete complex tasks through task reasoning, step-by-step breakdown, and tool invocation.
 2. They facilitate connecting your application with other systems or services and interacting with the external environment, such as code execution or access to proprietary information sources.
 
 ## How to Configure First-party Tools
 
 ![first_party_tool_list](/Tools/images/first_party_tool_list.png)
 
-Dify currently supports:
+AgentBuilder currently supports:
 
 |**Tool**|**Description**|
 |:-------|:--------------|
@@ -34,7 +34,7 @@ Dify currently supports:
 
 ### First-party Tool Authorization
 
-If you need to use the first-party built-in tools provided by the Dify ecosystem, you need to configure the corresponding credentials before using them.
+If you need to use the first-party built-in tools provided by the AgentBuilder ecosystem, you need to configure the corresponding credentials before using them.
 
 ![first_party_tool_configure](/Tools/images/first_party_tool_configure.png)
 
