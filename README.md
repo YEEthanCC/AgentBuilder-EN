@@ -44,14 +44,14 @@
     - Tool Configuration: skip
         - StableDiffusion: skip
         - SearXNG: skip
-- Publishing: incomplete
-    - Publish as a Single-page Web App: incomplete
-        - Web App Settings: incomplete
-        - Text Generator Application: incomplete
-        - Conversation Application: incomplete
-    - Embedding In Websites: incomplete
-    - Developing with APIs: incomplete
-    - Re-develop Based on Frontend Templates: incomplete
+- Publishing: done
+    - Publish as a Single-page Web App: done
+        - Web App Settings: done
+        - Text Generator Application: done
+        - Conversation Application: done
+    - Embedding In Websites: done
+    - Developing with APIs: done
+    - Re-develop Based on Frontend Templates: done
 - Annotation: incomplete
     - Logs and Annotation: incomplete
     - Annotation Reply: incomplete
