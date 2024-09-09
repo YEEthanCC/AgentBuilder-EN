@@ -56,10 +56,10 @@
     - Logs and Annotation: done
     - Annotation Reply: done
 - Monitoring: incomplete
-    - Data Analysis: incomplete
-    - Integrate External Ops Tools: incomplete
+    - Data Analysis: done
+    - Integrate External Ops Tools: done
         - Integrate LangSmith: incomplete
-        - Integrate Langfuse: incomplete
+        - Integrate Langfuse: done
 - Extension: incomplete
     - API-Based Extension: skip
     - Code-Based Extension: skip
