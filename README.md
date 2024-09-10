@@ -68,8 +68,8 @@
     - Code-Based Extension: done
         - External Data Tool: done
         - Moderation: done
-- Collaboration: incomplete
-    - Discover: incomplete
-    - Invite and Manage Members
-- Management: incomplete
-    - Manage App: incomplete
+- Collaboration: done
+    - Discover: done
+    - Invite and Manage Members: done
+- Management: done
+    - Manage App: done
