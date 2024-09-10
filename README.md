@@ -63,11 +63,11 @@
 - Extension: incomplete
     - API-Based Extension: done
         - External Data Tool: done
-        - Deploy API Tools with Cloudflare Workers: done
+        - Deploy API Tools with Cloudflare Workers: incomplete
         - Moderation: done
-    - Code-Based Extension: incomplete
-        - External Data Tool: incomplete
-        - Moderation: incomplete
+    - Code-Based Extension: done
+        - External Data Tool: done
+        - Moderation: done
 - Collaboration: incomplete
     - Discover: incomplete
     - Invite and Manage Members

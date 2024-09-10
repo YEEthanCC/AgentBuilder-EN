@@ -1,8 +1,8 @@
 # External Data Tool
 
-External data tools are used to fetch additional data from external sources after the end user submits data, and then assemble this data into prompts as additional context information for the LLM. Dify provides a default tool for external API calls.
+External data tools are used to fetch additional data from external sources after the end user submits data, and then assemble this data into prompts as additional context information for the LLM. AgentBuilder provides a default tool for external API calls.
 
-For developers deploying Dify locally, to meet more customized needs or to avoid developing an additional API Server, you can directly insert custom external data tool logic in the form of a plugin based on the Dify service. After extending custom tools, your custom tool options will be added to the dropdown list of tool types, and team members can use these custom tools to fetch external data.
+For developers deploying AgentBuilder locally, to meet more customized needs or to avoid developing an additional API Server, you can directly insert custom external data tool logic in the form of a plugin based on the AgentBuilder service. After extending custom tools, your custom tool options will be added to the dropdown list of tool types, and team members can use these custom tools to fetch external data.
 
 ## Quick Start
 
@@ -124,3 +124,62 @@ class WeatherSearch(ExternalDataTool):
         else:
             return f'Weather in {city} is 0°C'
 ```
+
+## 4. Debug the Extension
+
+Now, you can select the custom ```Weather Search``` external data tool extension type in the AgentBuilder application orchestration interface for debugging.
+
+## Implementation Class Template
+
+```
+from typing import Optional
+
+from core.external_data_tool.base import ExternalDataTool
+
+
+class WeatherSearch(ExternalDataTool):
+    """
+    The name of custom type must be unique, keep the same with directory and file name.
+    """
+    name: str = "weather_search"
+
+    @classmethod
+    def validate_config(cls, tenant_id: str, config: dict) -> None:
+        """
+        schema.json validation. It will be called when user save the config.
+
+        :param tenant_id: the id of workspace
+        :param config: the variables of form config
+        :return:
+        """
+
+        # implement your own logic here
+
+    def query(self, inputs: dict, query: Optional[str] = None) -> str:
+        """
+        Query the external data tool.
+
+        :param inputs: user inputs
+        :param query: the query of chat app
+        :return: the tool query result
+        """
+       
+        # implement your own logic here
+        return "your own data."
+```
+
+## Detailed Introduction to Implementation Class Development
+
+### def validate_config
+
+```schema.json``` form validation method, called when the user clicks "Publish" to save the configuration.
+
+- ```config``` form parameters
+    - ```{{variable}}``` custom form variables
+
+## def query
+
+User-defined data query implementation, the returned result will be replaced into the specified variable.
+
+- ```inputs```: Variables passed by the end user
+- ```query```: Current conversation input content from the end user, a fixed parameter for conversational applications.
